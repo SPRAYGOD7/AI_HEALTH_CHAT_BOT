@@ -1,0 +1,1773 @@
+
+
+
+
+
+[
+
+
+
+
+
+
+{
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "bot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["see you", "goodbye", "bye"],
+       "bot_response": "The pleasure is all mine!",
+      "required_words": []
+    },
+    {
+      "response_type": "greeting",
+      "user_input": ["nice", "to", "meet", "you"],
+      "bot_response": "The pleasure is all mine!",
+      "required_words": ["nice", "meet", "you"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+      "bot_response": "Start by typing: 'How to learn coding' on Google.",
+      "required_words": ["learn", "code"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["refund", "how", "can", "I", "get"],
+      "bot_response": "We don't offer refunds for free education.",
+      "required_words": ["refund", "i"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how", "are", "you"],
+      "bot_response": "I'm great! Thanks for asking.",
+      "required_words": ["how", "are", "you"]
+    },
+    {
+      "response_type": "isn't",
+      "user_input": ["this","isn't","working"],
+      "bot_response": "For a real assistant please call 1-800-HELPME",
+      "required_words": ["isn't", "working"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "pain chest",
+      "shortness of breath",
+      "dizziness",
+      "asthenia",
+      "fall",
+      "syncope",
+      "vertigo",
+      "sweat",
+      "sweating increased",
+      "palpitation",
+      "nausea",
+      "angina pectoris",
+      "pressure chest"
+    ],
+      "bot_response": "According to your symptoms you have hypertensive disease",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "polyuria",
+      "polydypsia",
+      "shortness of breath",
+      "pain chest",
+      "asthenia",
+      "nausea",
+      "orthopnea",
+      "rale",
+      "sweat",
+      "sweating increased",
+      "unresponsiveness",
+      "mental status changes",
+      "vertigo",
+      "vomiting",
+      "labored breathing"
+    ],
+      "bot_response": "According to your symptoms you have diabetes",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "feeling suicidal",
+      "suicidal",
+      "hallucinations auditory",
+      "feeling hopeless",
+      "weepiness",
+      "sleeplessness",
+      "motor retardation",
+      "irritable mood",
+      "blackout",
+      "mood depressed",
+      "hallucinations visual",
+      "worry",
+      "agitation",
+      "tremor",
+      "intoxication",
+      "verbal auditory hallucinations",
+      "energy increased",
+      "difficulty",
+      "nightmare",
+      "unable to concentrate",
+      "homelessness"
+    ],
+      "bot_response": "According to your symptoms you have depressive disorder",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "pain chest",
+      "angina pectoris",
+      "shortness of breath",
+      "hypokinesia",
+      "sweat",
+      "sweating increased",
+      "pressure chest",
+      "dyspnea on exertion",
+      "orthopnea",
+      "chest tightness"
+    ],
+      "bot_response": "According to your symptoms you have coronary heart disease",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "cough",
+      "fever",
+      "decreased translucency",
+      "shortness of breath",
+      "rale",
+      "productive cough",
+      "pleuritic pain",
+      "yellow sputum",
+      "breath sounds decreased",
+      "chill",
+      "rhonchus",
+      "green sputum",
+      "non-productive cough",
+      "wheezing",
+      "haemoptysis",
+      "distress respiratory",
+      "tachypnea",
+      "malaise",
+      "night sweat"
+    ],
+      "bot_response": "According to your symptoms you have pneumonia",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "shortness of breath",
+      "orthopnea",
+      "jugular venous distention",
+      "rale",
+      "dyspnea",
+      "cough",
+      "wheezing"
+    ],
+      "bot_response": "According to your symptoms you have failure heart congestive",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "dysarthria",
+      "asthenia",
+      "speech slurred",
+      "facial paresis",
+      "hemiplegia",
+      "unresponsiveness",
+      "seizure",
+      "numbness"
+    ],
+      "bot_response": "According to your symptoms you have accident cerebrovascular",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "wheezing",
+      "cough",
+      "shortness of breath",
+      "chest tightness",
+      "non-productive cough",
+      "pleuritic pain",
+      "productive cough",
+      "symptom aggravating factors",
+      "distress respiratory"
+    ],
+      "bot_response": "According to your symptoms you have asthma",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "pain chest",
+      "st segment elevation",
+      "sweat",
+      "sweating increased",
+      "shortness of breath",
+      "st segment depression",
+      "hypokinesia",
+      "angina pectoris",
+      "pressure chest",
+      "t wave inverted",
+      "orthopnea",
+      "rale",
+      "chest tightness",
+      "presence of q wave",
+      "palpitation",
+      "dyspnea",
+      "chest discomfort",
+      "bradycardia",
+      "syncope"
+    ],
+      "bot_response": "According to your symptoms you have myocardial infarction",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "pain",
+      "pain chest",
+      "sweat",
+      "sweating increased",
+      "nonsmoker",
+      "pressure chest",
+      "syncope",
+      "numbness",
+      "chest discomfort",
+      "shortness of breath",
+      "st segment depression",
+      "worry",
+      "t wave inverted",
+      "bradycardia",
+      "dyspnea"
+    ],
+      "bot_response": "According to your symptoms you have hypercholesterolemia",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input":  [
+      "fever",
+      "erythema",
+      "decreased translucency",
+      "hepatosplenomegaly",
+      "chill",
+      "pruritus",
+      "diarrhea",
+      "abscess bacterial",
+      "swelling",
+      "pain",
+      "apyrexial",
+      "cough"
+    ],
+      "bot_response": "According to your symptoms you have infection",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input":  [
+      "fever",
+      "dysuria",
+      "hematuria",
+      "renal angle tenderness",
+      "lethargy",
+      "asthenia",
+      "hyponatremia",
+      "hemodynamically stable",
+      "distress respiratory",
+      "difficulty passing urine",
+      "mental status changes",
+      "consciousness clear"
+    ],
+      "bot_response": "According to your symptoms you have infection urinary tract",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input": [
+      "chill",
+      "guaiac positive",
+      "monoclonal",
+      "ecchymosis",
+      "tumor cell invasion",
+      "haemorrhage",
+      "pallor",
+      "asthenia",
+      "fatigue",
+      "heme positive",
+      "pain back",
+      "orthostasis",
+      "hyponatremia",
+      "dizziness",
+      "shortness of breath",
+      "pain",
+      "rhonchus",
+      "arthralgia",
+      "swelling",
+      "transaminitis"
+    ],
+      "bot_response": "According to your symptoms you have anemia",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input":  [
+      "shortness of breath",
+      "wheezing",
+      "cough",
+      "dyspnea",
+      "distress respiratory",
+      "sputum purulent",
+      "hypoxemia",
+      "hypercapnia",
+      "patient non compliance",
+      "chest tightness"
+    ],
+      "bot_response": "According to your symptoms you have chronic obstructive airway disease",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input":  [
+      "fever",
+      "fall",
+      "unresponsiveness",
+      "lethargy",
+      "agitation",
+      "ecchymosis",
+      "syncope",
+      "rale",
+      "unconscious state",
+      "cough",
+      "bedridden",
+      "bedridden",
+      "pain",
+      "facial paresis",
+      "abdominal tenderness",
+      "rhonchus",
+      "unsteady gait",
+      "hallucinations auditory"
+    ],
+      "bot_response": "According to your symptoms you have dementia",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input":  [
+      "fever",
+      "shortness of breath",
+      "hyperkalemia",
+      "orthopnea",
+      "rale",
+      "urgency of micturition",
+      "ascites",
+      "guaiac positive",
+      "asthenia",
+      "apyrexial",
+      "mental status changes",
+      "dyspnea",
+      "difficulty",
+      "diarrhea",
+      "hypotension",
+      "breath sounds decreased",
+      "swelling",
+      "hypokinesia"
+    ],
+      "bot_response": "According to your symptoms you have insufficiency renal",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "seizure",
+      "enuresis",
+      "lethargy",
+      "speech slurred",
+      "fall",
+      "consciousness clear",
+      "mental status changes",
+      "asterixis",
+      "unconscious state",
+      "agitation",
+      "muscle twitch",
+      "asthenia",
+      "sleepy",
+      "dizziness",
+      "headache",
+      "dysarthria",
+      "lightheadedness",
+      "tremor",
+      "hyponatremia",
+      "unresponsiveness"
+    ],
+      "bot_response": "According to your symptoms you have confusion",
+      "required_words": ["symptoms"]
+    },
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "seizure",
+      "pain",
+      "food intolerance",
+      "numbness of hand",
+      "general discomfort",
+      "drowsiness",
+      "asthenia",
+      "nonsmoker",
+      "non-productive cough",
+      "polydypsia",
+      "stiffness",
+      "unsteady gait"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have degenerative polyarthritis",
+      "required_words": ["symptoms"]
+    }
+    
+    
+    ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+          "shortness of breath",
+      "prostatism",
+      "drowsiness",
+      "sleepy",
+      "hyponatremia",
+      "fall",
+      "unsteady gait",
+      "polyuria",
+      "hypotension",
+      "difficulty",
+      "syncope",
+      "nightmare",
+      "speech slurred",
+      "weight gain",
+      "asthenia",
+      "fatigue",
+      "tired",
+      "agitation",
+      "mental status changes",
+      "motor retardation",
+      "vomiting",
+      "numbness",
+      "mass of body structure"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have hypothyroidism",
+      "required_words": ["symptoms"]
+    }
+    
+    
+    
+    
+    
+    
+ ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "worry",
+      "feeling suicidal",
+      "suicidal",
+      "sleeplessness",
+      "feeling hopeless",
+      "irritable mood",
+      "tremor",
+      "blackout",
+      "weepiness",
+      "has religious belief",
+      "nervousness",
+      "hallucinations visual",
+      "formication",
+      "difficulty",
+      "pain chest",
+      "patient non compliance",
+      "agitation",
+      "palpitation",
+      "hallucinations auditory",
+      "mood depressed",
+      "hot flush",
+      "pain",
+      "consciousness clear",
+      "nightmare"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have anxiety state",
+      "required_words": ["symptoms"]
+    }
+
+,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "pain",
+      "mass of body structure",
+      "lesion",
+      "cushingoid facies",
+      "cushingoid habitus",
+      "emphysematous change",
+      "decreased body weight",
+      "ascites",
+      "hoarseness",
+      "thicken",
+      "hematuria"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have primary malignant neoplasm",
+      "required_words": ["symptoms"]
+    }
+
+
+,
+    {
+      "response_type": "disease",
+      "user_input":   [
+        "fever",
+      "night sweat",
+      "spontaneous rupture of membranes",
+      "cough",
+      "decreased body weight",
+      "chill",
+      "diarrhea",
+      "pleuritic pain",
+      "patient non compliance",
+      "tachypnea",
+      "productive cough",
+      "muscle hypotonia",
+      "hypotonic",
+      "feeling suicidal"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have HIV",
+      "required_words": ["symptoms"]
+    }
+,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "erythema",
+      "pain",
+      "swelling",
+      "redness",
+      "fever",
+      "abscess bacterial",
+      "patient non compliance",
+      "hypesthesia",
+      "hyperacusis",
+      "pruritus",
+      "pain chest",
+      "scratch marks",
+      "chill",
+      "sore to touch"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have cellulitis",
+      "required_words": ["symptoms"]
+    }
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "pain",
+      "pain chest",
+      "burning sensation",
+      "hyponatremia",
+      "satiety early",
+      "throbbing sensation quality",
+      "chest tightness",
+      "sensory discomfort",
+      "presence of q wave",
+      "nausea",
+      "general discomfort",
+      "constipation",
+      "palpitation",
+      "pain abdominal",
+      "heartburn",
+      "sweat",
+      "sweating increased",
+      "asthenia"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have gastroesophageal reflux disease",
+      "required_words": ["symptoms"]
+    }
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+         "fever",
+      "distress respiratory",
+      "hypotension",
+      "tachypnea",
+      "chill",
+      "lethargy",
+      "bradycardia",
+      "breech presentation",
+      "cyanosis",
+      "spontaneous rupture of membranes",
+      "haemorrhage",
+      "unresponsiveness",
+      "rale",
+      "apyrexial"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have septicemia",
+      "required_words": ["symptoms"]
+    }
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+         "how","do","i","stop","smoking","now"
+    ]
+    
+    ,
+      "bot_response": "stopping smoking is about will power and being steadfast. you can stop safely by having bupropion or nicotine patch cover initially in consult with a doctor. contact an addiction clinic near you. wishing you best of health thanks   For more info you can visit ==http://ehealthforum.com/health/stop-smoking-question-t462882.html",
+      "required_words": ["i","how","stop"]
+    }
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   ["i ","had", "a"," tubaligation", "4"," years", "ago" ,"and","also"," have"," a"," minor ","case"," of"," endometriosis"," i"," am"," only"," 27"," and"," my" ,"period"," stopped"," completely"," 3"," months"," ago"," no"," more"," spotting"," in"," between"," nothing ","i"," am"," not"," stressed"," no"," change"," in"," daily"," habits ","diet", "weight"," nothing ","all"," urine"," pregnancy ","tests"," have"," been"," negative"," what"," could"," be"," wrong"," with"," me"
+    ]
+    
+    ,
+      "bot_response": "hello this sounds quite unfamiliar that due to no reason at this age you have no cycle for last three months. pregnancy is surely a remote possibility as there was a tubal ligation. the endometriosis is also unlikely could cause stoppage of cycle. you definitely need some hormonal tests like thyroid or prolactin to know the balance inside as well as an withdrawal bleeding. meet your doctor for an evaluation. For more info you can visit ==http://ehealthforum.com/health/endometriosis-question-t494011.html",
+      "required_words": [ "pregnancy",
+      "diet",
+      "endometriosis"]
+    }
+  
+  
+  
+     ,
+    {
+      "response_type": "disease",
+      "user_input":   ["could"," extra"," caffeine ","consumption"," be"," a"," cause"," of"," mild"," unilateral"," breast"," tenderness"
+    ]
+    
+    ,
+      "bot_response": "extra caffeine can cause gastric discomfort the pain of which can be felt at one side of breast mostly left side but right also is possible and some times whole chest. get evaluated for any local pathology like mastitis. i hope it helps. stay in touch with your healthcare provider for further guidance as our answers are just for education and counselling purposes and cannot be an alternative to actual visit to a doctor. take care khan For more info you can visit ==http://ehealthforum.com/health/caffeine-consumption-causing-breast-tenderness-t505151.html",
+      "required_words": [ "breast cancer",
+      "cancer",
+      "breasts"]
+    }
+  
+  
+    ,
+    {
+      "response_type": "disease",
+      "user_input":   ["what","are","the","abortion"," benefits","of"
+    ]
+    
+    ,
+      "bot_response": "abortion the clinical way of stopping an unplanned/unprepared/unhealthy pregnancy. For more info you can visit ==http://ehealthforum.com/health/abortion-purpose-t351265.html",
+      "required_words": [
+     "abortion","of"," benefits"]
+    }
+  
+      ,
+    {
+      "response_type": "disease",
+      "user_input":   [" loose"," my"," weight"
+    ]
+    
+    ,
+      "bot_response": "obesity needs to be documented first by calculating the bmi i. e the body mass index if obesity is present a lipid profile should also be done along with crp/esr to prevent atherosclerosis progression. thyroid profile should also be done as part of the workup. limiting caloric intake division into small meals increasing dry fiber intake and regular exercise can be applied as part of daily routine to have a controlled reduction in weight. please consult a nutritionist regarding your daily diet so that he/she may alter it according to your preference as much as possible. wishing you best of health thanks. For more info you can visit ==http://ehealthforum.com/health/how-i-loose-my-waight-t446368-a1.html",
+      "required_words": [
+     "how"," i"]
+    }
+
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+         "swelling",
+      "pain",
+      "ecchymosis",
+      "shortness of breath",
+      "pain in lower limb",
+      "cardiomegaly",
+      "rale",
+      "erythema",
+      "hypotension",
+      "clonus",
+      "non-productive cough",
+      "redness"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have deep vein thrombosis",
+      "required_words": ["symptoms"]
+    }
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+         "fever",
+      "diarrhea",
+      "vomiting",
+      "hypotension",
+      "nausea",
+      "lightheadedness",
+      "unwell",
+      "mental status changes",
+      "anorexia",
+      "asthenia",
+      "sensory discomfort",
+      "syncope",
+      "lethargy",
+      "dizziness",
+      "syncope",
+      "blackout",
+      "history of - blackout"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have dehydration",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+    ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "mass of body structure",
+      "lesion",
+      "pain chest",
+      "hematuria",
+      "tumor cell invasion",
+      "pain",
+      "anosmia",
+      "thicken",
+      "metastatic lesion",
+      "food intolerance",
+      "decreased body weight",
+      "night sweat",
+      "hemianopsia homonymous",
+      "satiety early",
+      "pain abdominal",
+      "headache"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have neoplasm",
+      "required_words": ["symptoms"]
+    } 
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "shortness of breath",
+      "hypoxemia",
+      "tachypnea",
+      "hematocrit decreased",
+      "pain chest",
+      "dyspnea",
+      "pleuritic pain",
+      "neck stiffness",
+      "yellow sputum",
+      "productive cough",
+      "cicatrisation",
+      "unresponsiveness",
+      "distress respiratory",
+      "wheezing",
+      "apyrexial",
+      "non-productive cough"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have embolism pulmonary",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "seizure",
+      "hypometabolism",
+      "aura",
+      "muscle twitch",
+      "drowsiness",
+      "tremor",
+      "unresponsiveness",
+      "hemiplegia",
+      "myoclonus",
+      "gurgle",
+      "sleepy",
+      "lethargy",
+      "wheelchair bound"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have epilepsy",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "shortness of breath",
+      "orthopnea",
+      "hypokinesia",
+      "jugular venous distention",
+      "palpitation",
+      "pain chest",
+      "syncope",
+      "yellow sputum",
+      "rale",
+      "dyspnea",
+      "dyspnea on exertion",
+      "left atrial hypertrophy",
+      "fatigue",
+      "weight gain",
+      "patient non compliance"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have cardiomyopathy ",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+        "vomiting",
+      "orthopnea",
+      "hyperkalemia",
+      "oliguria",
+      "jugular venous distention",
+      "nausea",
+      "shortness of breath",
+      "mental status changes",
+      "diarrhea",
+      "asthenia",
+      "chest tightness",
+      "malaise",
+      "chill",
+      "rale",
+      "fever",
+      "pleuritic pain",
+      "apyrexial",
+      "guaiac positive",
+      "swelling",
+      "catatonia",
+      "unresponsiveness",
+      "yellow sputum"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have chronic kidney failure ",
+      "required_words": ["symptoms"]
+    } 
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+        "mass of body structure",
+      "pain",
+      "lesion",
+      "tumor cell invasion",
+      "thicken",
+      "decreased body weight",
+      "hoarseness",
+      "general discomfort",
+      "metastatic lesion",
+      "non-productive cough",
+      "constipation",
+      "unhappy",
+      "paresthesia",
+      "gravida ",
+      "diarrhea",
+      "sore to touch",
+      "heartburn",
+      "nausea",
+      "lung nodule"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have carcinoma",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "ascites",
+      "distended abdomen",
+      "feeling suicidal",
+      "cough",
+      "ache",
+      "macerated skin",
+      "heavy feeling",
+      "hallucinations auditory",
+      "chill",
+      "asterixis",
+      "patient non compliance"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have hepatitis",
+      "required_words": ["symptoms"]
+    } 
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "shortness of breath",
+      "rest pain",
+      "angina pectoris",
+      "unresponsiveness",
+      "hyperkalemia",
+      "sinus rhythm",
+      "labored breathing",
+      "dyspnea",
+      "sore to touch",
+      "anorexia",
+      "sleepy"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have peripheral vascular disease",
+      "required_words": ["symptoms"]
+    } 
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+        "suicidal",
+      "hallucinations auditory",
+      "feeling suicidal",
+      "hallucinations visual",
+      "motor retardation",
+      "blackout",
+      "verbal auditory hallucinations",
+      "feeling hopeless",
+      "irritable mood",
+      "agitation",
+      "tremor",
+      "catatonia",
+      "weepiness",
+      "homelessness",
+      "sleeplessness",
+      "withdraw",
+      "energy increased",
+      "intoxication",
+      "worry",
+      "behavior hyperactive",
+      "patient non compliance",
+      "mood depressed",
+      "terrify",
+      "nightmare",
+      "consciousness clear"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have psychotic disorder",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "pain chest",
+      "angina pectoris",
+      "palpitation",
+      "presence of q wave",
+      "photopsia",
+      "sweat",
+      "sweating increased",
+      "chest discomfort",
+      "shortness of breath",
+      "giddy mood",
+      "hypokinesia",
+      "hemiplegia",
+      "dizziness"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have hyperlipidemia",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "feeling suicidal",
+      "energy increased",
+      "suicidal",
+      "irritable mood",
+      "agitation",
+      "has religious belief",
+      "disturbed family",
+      "hallucinations auditory",
+      "verbal auditory hallucinations",
+      "weepiness",
+      "behavior hyperactive",
+      "catatonia",
+      "feeling hopeless",
+      "worry",
+      "sleeplessness",
+      "hypersomnia",
+      "difficulty",
+      "hallucinations visual",
+      "hyperhidrosis disorder",
+      "mydriasis",
+      "extrapyramidal sign",
+      "loose associations",
+      "intoxication",
+      "motor retardation",
+      "homelessness",
+      "blackout",
+      "tremor",
+      "exhaustion"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have bipolar disorder",
+      "required_words": ["symptoms"]
+    } 
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "pain",
+      "catatonia",
+      "snore",
+      "pain chest",
+      "r wave feature",
+      "has religious belief",
+      "shortness of breath",
+      "fatigue",
+      "tired",
+      "overweight",
+      "systolic murmur",
+      "mood depressed",
+      "ecchymosis"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have obesity",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+  
+  
+    ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "drowsiness",
+      "sleepy",
+      "pain chest",
+      "angina pectoris",
+      "pressure chest",
+      "chest discomfort",
+      "shortness of breath",
+      "dyspnea",
+      "sinus rhythm",
+      "bradycardia",
+      "sweat",
+      "sweating increased",
+      "rale",
+      "asymptomatic",
+      "anorexia"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have ischemia",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "ascites",
+      "fall",
+      "splenomegaly",
+      "pruritus",
+      "pain abdominal",
+      "tumor cell invasion",
+      "distended abdomen",
+      "lesion",
+      "hemodynamically stable",
+      "guaiac positive",
+      "sore to touch",
+      "bleeding of vagina"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have cirrhosis",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+        "fever",
+      "pruritus",
+      "macule",
+      "lesion",
+      "redness",
+      "headache",
+      "apyrexial",
+      "arthralgia",
+      "swelling",
+      "erythema",
+      "photophobia",
+      "chill",
+      "scratch marks",
+      "pain",
+      "painful swallowing"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have exanthema",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "mental status changes",
+      "cachexia",
+      "blackout",
+      "orthostasis",
+      "orthopnea",
+      "night sweat",
+      "distress respiratory",
+      "anorexia",
+      "dysarthria"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have benign prostatic hypertrophy",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "hyperkalemia",
+      "hypotension",
+      "hypocalcemia result",
+      "oliguria",
+      "hemodynamically stable",
+      "asthenia",
+      "hypothermia, natural",
+      "diarrhea",
+      "haemorrhage",
+      "unresponsiveness"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have kidney failure acute",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+    ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "shortness of breath",
+      "dyspnea on exertion",
+      "asymptomatic",
+      "hypokinesia",
+      "dyspnea",
+      "syncope",
+      "thicken",
+      "left atrial hypertrophy",
+      "palpitation",
+      "fatigue",
+      "vomiting",
+      "pain",
+      "cardiomegaly",
+      "chest discomfort"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have mitral valve insufficiency",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "pain",
+      "hemodynamically stable",
+      "sleeplessness",
+      "asthenia",
+      "syncope",
+      "swelling",
+      "atypia",
+      "general unsteadiness",
+      "shortness of breath",
+      "distended abdomen"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have arthritis",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+  
+  
+  ,
+    {
+      "response_type": "medicine",
+      "user_input":   [ "medicine","Medicine"
+    ]
+    
+    ,
+      "bot_response": " you can buy medicine from here according to your symptoms just vist to https://www.drugs.com/medical_conditions.html",
+      "required_words": ["i","buy","medicine"]
+    } 
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [ "Disease","disease"
+    ]
+    
+    ,
+      "bot_response": " you will get very detail of disease just vist to https://www.nhsinform.scot/illnesses-and-conditions/a-to-z",
+      "required_words": ["tell","more"]
+    } 
+  
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+       "cough",
+      "wheezing",
+      "shortness of breath",
+      "chest tightness",
+      "fever",
+      "throat sore",
+      "productive cough",
+      "hepatosplenomegaly",
+      "night sweat",
+      "haemoptysis",
+      "labored breathing",
+      "snuffle",
+      "hacking cough",
+      "dyspnea",
+      "chill",
+      "stridor",
+      "decreased body weight"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have bronchitis",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "dysarthria",
+      "paresis",
+      "asthenia",
+      "aphagia",
+      "seizure",
+      "speech slurred",
+      "focal seizures",
+      "hemiplegia",
+      "abnormal sensation",
+      "unresponsiveness",
+      "stupor",
+      "drowsiness",
+      "sleepy",
+      "fremitus",
+      "Stahli's line",
+      "stinging sensation",
+      "paralyse",
+      "clonus",
+      "facial paresis"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have hemiparesis",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+    "prostatism",
+      "fall",
+      "hirsutism",
+      "sniffle",
+      "distended abdomen",
+      "vertigo",
+      "numbness of hand",
+      "bradykinesia",
+      "pain",
+      "syncope",
+      "out of breath",
+      "apyrexial",
+      "urge incontinence",
+      "lightheadedness"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have osteoporosis",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+    "speech slurred",
+      "dysarthria",
+      "facial paresis",
+      "asthenia",
+      "neck stiffness",
+      "vertigo",
+      "numbness",
+      "lightheadedness",
+      "extrapyramidal sign",
+      "Stahli's line",
+      "vision blurred",
+      "headache",
+      "room spinning",
+      "syncope",
+      "difficulty",
+      "rambling speech",
+      "clumsiness"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have transient ischemic attack",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "mass of body structure",
+      "lesion",
+      "decreased body weight",
+      "constipation",
+      "fremitus",
+      "decreased stool caliber",
+      "satiety early",
+      "hematochezia",
+      "egophony",
+      "pain",
+      "cicatrisation",
+      "scar tissue",
+      "pain abdominal"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have adenocarcinoma",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "hallucinations auditory",
+      "hallucinations visual",
+      "agitation",
+      "irritable mood",
+      "verbal auditory hallucinations",
+      "feeling suicidal",
+      "suicidal",
+      "terrify",
+      "neologism",
+      "homelessness",
+      "energy increased",
+      "mood depressed",
+      "decompensation",
+      "cicatrisation",
+      "scar tissue",
+      "blackout",
+      "loose associations"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have paranoia",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "vomiting",
+      "pain abdominal",
+      "nausea",
+      "pain",
+      "diarrhea",
+      "stool color yellow",
+      "rigor - temperature-associated observation",
+      "apyrexial",
+      "sore to touch"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have pancreatitis",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "vomiting",
+      "pain abdominal",
+      "nausea",
+      "pain",
+      "diarrhea",
+      "stool color yellow",
+      "rigor - temperature-associated observation",
+      "apyrexial",
+      "sore to touch"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have pancreatitis",
+      "required_words": ["symptoms"]
+    } 
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "paraparesis",
+      "seizure",
+      "asthenia",
+      "urge incontinence",
+      "unconscious state",
+      "aura",
+      "moody",
+      "fear of falling",
+      "tremor",
+      "spasm",
+      "unhappy",
+      "syncope",
+      "fall",
+      "stiffness",
+      "unresponsiveness"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have incontinence",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "orthopnea",
+      "shortness of breath",
+      "dyspnea on exertion",
+      "jugular venous distention",
+      "rale",
+      "pain chest",
+      "palpitation",
+      "sweat",
+      "sweating increased",
+      "weight gain",
+      "cough",
+      "dyspnea"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have paroxysmal dyspnea",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "pain abdominal",
+      "pain",
+      "hyperventilation",
+      "excruciating pain",
+      "gag",
+      "nausea",
+      "posturing",
+      "hemiplegia",
+      "sore to touch",
+      "haemorrhage",
+      "apyrexial",
+      "food intolerance",
+      "pulse absent",
+      "asthenia",
+      "mass of body structure",
+      "thicken"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have hernia",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "hematuria",
+      "dysesthesia",
+      "asthenia",
+      "polymyalgia",
+      "passed stones",
+      "pleuritic pain",
+      "guaiac positive",
+      "rale",
+      "breath sounds decreased",
+      "urge incontinence",
+      "dysuria",
+      "diarrhea",
+      "vertigo",
+      "qt interval prolonged",
+      "ataxia",
+      "paresis",
+      "hemianopsia homonymous",
+      "tumor cell invasion",
+      "hemodynamically stable",
+      "mass of body structure",
+      "rhonchus",
+      "orthostasis",
+      "decreased body weight"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have carcinoma prostate",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "urgency of micturition",
+      "shortness of breath",
+      "rale",
+      "tachypnea",
+      "orthopnea",
+      "Heberden's node",
+      "jugular venous distention",
+      "dyspnea",
+      "sweat",
+      "sweating increased",
+      "patient non compliance",
+      "chest discomfort",
+      "hyperkalemia",
+      "sinus rhythm",
+      "pain chest",
+      "hypotension",
+      "wheezing"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have edema pulmonary",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+      "pain",
+      "mass of body structure",
+      "night sweat",
+      "splenomegaly",
+      "lesion",
+      "chill",
+      "decreased body weight",
+      "swelling",
+      "fever",
+      "hyperacusis",
+      "fremitus",
+      "non-productive cough",
+      "egophony",
+      "redness",
+      "hepatomegaly",
+      "fatigue"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have lymphatic diseases",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "dyspnea on exertion",
+      "syncope",
+      "chest discomfort",
+      "systolic murmur",
+      "sciatica",
+      "angina pectoris",
+      "pain chest",
+      "frothy sputum",
+      "bradycardia",
+      "shortness of breath",
+      "pain"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have stenosis aortic valve",
+      "required_words": ["symptoms"]
+    } 
+  
+   ,
+    {
+      "response_type": "disease",
+      "user_input":   [
+     "mass in breast",
+      "mass of body structure",
+      "paresthesia",
+      "retropulsion",
+      "erythema",
+      "difficulty",
+      "lesion",
+      "estrogen use",
+      "burning sensation",
+      "dyspnea",
+      "swelling",
+      "formication"
+    ]
+    
+    ,
+      "bot_response": "According to your symptoms you have carcinoma breast",
+      "required_words": ["symptoms"]
+    } 
+  
+  
+  
+  
+  
+  
+  ]
+  
